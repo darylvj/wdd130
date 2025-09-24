@@ -2,70 +2,97 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>White Water Rafting Co. | About Us</title>
     <meta name="description"
-        content="Learn about White Water Rafting Co. — our mission, history, and passion for adventure.">
-    <meta name="author" content="Daryl Jubasan">
-    <link rel="stylesheet" href="styles/rafting.css">
+        content="Learn about White Water Rafting Co. — our mission, history, and passion for adventure." />
+    <meta name="author" content="Daryl Jubasan" />
+    <link rel="stylesheet" href="styles/rafting.css" />
 </head>
 
 <body>
     <header>
-        <img src="images/logo.png" alt="White Water Rafting Co. Logo" width="150">
+        <img src="images/logo.png" alt="White Water Rafting Co. Logo" width="120" />
+        <h1 class="site-title">White Water Rafting Co.</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
         <!-- Hero Section -->
         <div class="hero">
-            <img src="images/hero.jpg" alt="Rafting adventure on a wild river">
+            <img src="images/hero.jpg" alt="Rafting adventure on a wild river" />
             <h1>White Water Rafting Co.</h1>
             <article>
-                <img src="images/happy-client.jpg" alt="Happy rafting client">
+                <img src="images/happy-client.jpg" alt="Happy rafting client" />
                 <p>
-                    Our mission is to bring the thrill of the river to adventurers of all ages.
-                    Whether you're a first-time paddler or a seasoned rafter, we create unforgettable
-                    experiences that connect you with nature and your fellow explorers.
+                    Our mission is to bring the thrill of the river to adventurers of all
+                    ages. Whether you're a first-time paddler or a seasoned rafter, we
+                    create unforgettable experiences that connect you with nature and your
+                    fellow explorers.
                 </p>
             </article>
         </div>
 
         <!-- History Section -->
-        <section>
+        <section class="history">
             <h2>History</h2>
-            <p>
-                Founded in 1998, White Water Rafting Co. began with a single raft and a dream.
-                Over the years, we've grown into a trusted name in adventure tourism, guiding
-                thousands safely down some of the most exciting rivers in the region.
-            </p>
+
+            <div class="history-grid">
+                <p class="history-text left">
+                    Founded in 1998, White Water Rafting Co. began with a single raft and a dream.
+                </p>
+
+                <img src="images/history.jpg" alt="Vintage rafting photo" class="history-img" />
+
+                <p class="history-text right">
+                    Over the years, we’ve grown into a trusted name in adventure tourism, guiding thousands
+                    safely down some of the most exciting rivers in the region.
+                </p>
+            </div>
         </section>
 
         <!-- Adventure Awaits Section -->
-        <section>
+        <section class="adventures">
             <h2>Adventure Awaits You!</h2>
-            <!-- Images will be added in a future assignment -->
+            <div class="gallery">
+                <figure>
+                    <img src="images/adventure1.jpg" alt="Los Dientes del Diablo rapid" />
+                    <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure2.jpg" alt="Big Mallard rapid" />
+                    <figcaption>Big Mallard</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure3.jpg" alt="Half Day Adventure trip" />
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure4.jpg" alt="Fish River Canyon trip" />
+                    <figcaption>Fish River Canyon</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure5.jpg" alt="Zambezi River rapid" />
+                    <figcaption>Zambezi River</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2025 White Water Rafting Co. | Daryl Jubasan</p>
         <nav class="socialmedia">
-            <a href="https://facebook.com">
-                <img src="images/facebook.svg" alt="Facebook Icon">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.svg" alt="Instagram Icon">
-            </a>
-            <a href="https://linkedin.com">
-                <img src="images/linkedin.svg" alt="LinkedIn Icon">
-            </a>
+            <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook Icon" /></a>
+            <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram Icon" /></a>
+            <a href="https://linkedin.com"><img src="images/linkedin.svg" alt="LinkedIn Icon" /></a>
         </nav>
     </footer>
 </body>
