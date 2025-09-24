@@ -80,7 +80,7 @@ header {
   justify-items: center;             /* center children horizontally */
   align-items: start;                /* title at top of row1 */
   background: url('../images/hero.jpg') center/cover no-repeat;
-  height: 60vh;
+  height: 50vh;
   position: relative;
   overflow: hidden;
 }
@@ -118,7 +118,7 @@ header {
 
   background-color: rgba(255,255,255,0.9);
   padding: 1rem;
-  max-width: 600px;
+  max-width: 700px;
   border-radius: 4px;
   z-index: 1;
 }
