@@ -232,24 +232,29 @@ figcaption {
 /* Footer */
 footer {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background-color: var(--primary-color);
   color: var(--accent2-color);
   padding: 1rem;
   margin-top: 2rem;
+  position: relative;
 }
 
 footer p {
-  font-size: 0.9rem;
+  flex: 1;
+  text-align: center;
+  margin: 0;
 }
 
 .socialmedia {
   display: flex;
   gap: 1rem;
+  position: absolute;
+  right: 1rem;
 }
-
 .socialmedia img {
   width: 32px;
   height: auto;
 }
+
+
