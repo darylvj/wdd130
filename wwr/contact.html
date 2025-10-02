@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>White Water Rafting Co. | Contact Us</title>
     <meta name="description"
@@ -39,8 +39,7 @@
             <div class="map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d31162.615401366507!2d124.6494679!3d12.4944766!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1759417649406!5m2!1sen!2sph"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="contact-form">
@@ -57,19 +56,26 @@
 
                     <fieldset>
                         <legend>Purpose of Message:</legend>
-                        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
-                        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                        <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                        <label><input type="radio" id="purpose-general" name="purpose" value="general" required> General
+                            Inquiry</label>
+                        <label><input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                            Reservation
+                            Question</label>
+                        <label><input type="radio" id="purpose-suggestion" name="purpose" value="suggestion"> Website
+                            Suggestion</label>
                     </fieldset>
 
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="5"></textarea>
 
-                    <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly
-                        newsletter</label>
+                    <label for="subscribe">
+                        <input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly
+                        newsletter
+                    </label>
 
                     <button type="submit">Send Message</button>
                 </form>
+
             </div>
         </section>
     </main>
